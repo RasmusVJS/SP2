@@ -8,7 +8,7 @@ public class PrintedBook extends Title {
 
     @Override
     public double calculatePoints() {
-        return pages * getCopies() * calculateLiteraturePoints();
+        return pages * copies * calculateLiteraturePoints();
     }
 
     @Override

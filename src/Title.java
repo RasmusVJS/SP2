@@ -1,8 +1,8 @@
 public abstract class Title {
     private String title;
     private String literatureType;
-    private int copies;
-    private double rate = 0.067574;
+    protected int copies;
+    protected double rate = 0.067574;
 
     public Title(String title, String literatureType, int copies) {
         this.title = title;
@@ -20,9 +20,5 @@ public abstract class Title {
 
     public String getLiteratureType() {
         return literatureType;
-    }
-
-    public int getCopies() {
-        return copies;
     }
 }
